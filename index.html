@@ -1,32 +1,59 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 
-<body>
+  <body>
+
+    <div id="sidebar">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-snapchat"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+
     <header>
-      <img id ="portrait" src="images/erlend.jpg">
-      <div id="header-text">
+      <div class="header-text">
         <h1>ERLEND LYGRE</h1>
         <h2>Data journalist</h2>
-        <ul>
-          <p>
-            <li>Online journalism</li>
-            <li>Infographics</li>
-            <li>Video editing</li>
-            <li>Scraping, cleaning data</li>
-            <li>Data visualization</li>
-          </p>
-        </ul>
       </div>
+      <img id ="portrait" src="images/erlend.jpg">
     </header>
-  <section>
-    <img src="images/zoo.png">
-    <img src="images/mean.jpg">
-    <img src="images/up.jpg">
-    <div id="card"></div>
-  </section>
-</body>
+
+    <section id="movies">
+      <img src="images/zoo.png">
+      <img src="images/mean.jpg">
+      <img src="images/up.jpg">
+    </section>
+
+    <section id="form">
+      <div id="form-description">
+        <p>Name</p>
+        <p>Phone</p>
+        <p>Address</p>
+        <p>Pick meal</p>
+      </div>
+      <form action="">
+        <input type="text">
+        <input type="text">
+        <select name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <input type="text">
+      </form>
+
+      <div id="wedding">
+        <h1>WEDDING</h1>
+      </div>
+    </section>
+  </body>
+
 </html>
